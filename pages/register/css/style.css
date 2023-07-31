@@ -28,13 +28,13 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
   z-index: 10;
 }
 .slide .image {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: brightness(0.55);
 }
 .slide .image-data {
   position: absolute;
@@ -64,14 +64,8 @@
 
 .logo-container1 {
   position: absolute;
-  top: 70px; /* Adjust this value to change the distance from the top */
-  left: 10px; /* Adjust this value to change the distance from the right */
-}
-
-.bright-image {
-  filter: brightness(
-    2.5
-  ); /* Adjust the value to increase or decrease brightness */
+  bottom: 70px; /* Adjust this value to change the distance from the top */
+  right: 10px; /* Adjust this value to change the distance from the right */
 }
 
 a.button {
@@ -130,4 +124,3 @@ a.button:hover {
     visibility: visible;
   }
 }
-
