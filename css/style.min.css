@@ -1319,7 +1319,7 @@ h6 {
 
 #preloader #status {
   position: absolute;
-  left: 50%;
+  left: 48%;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -1355,8 +1355,8 @@ h6 {
   width: 100%;
 }
 
-.hero-1-bg .hero-1-title {
-  font-size: 30px;
+.hero-1-title {
+  font-size: 40px !important;
 }
 
 .hero-1-bg .subscribe-form form {
@@ -1581,13 +1581,22 @@ h6 {
   .hero-2-title,
   .hero-4-title,
   .hero-5-title {
-    font-size: 33px !important;
+    font-size: 26px !important;
+  }
+  .backmargin {
+    margin-top: 1px !important;
+  }
+  .dead {
+    margin-top: 0px !important;
+  }
+  .hero-15-title {
+    font-size: 20px !important;
   }
   .hero-6-bg {
     padding: 150px 0 110px 0px;
   }
   .hero-6-bg .hero-6-title {
-    font-size: 32px !important;
+    font-size: 88px !important;
   }
   .hero-6-bg .Subcribe-form input {
     width: 100%;
