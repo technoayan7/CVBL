@@ -25,6 +25,7 @@ h6 {
   font-weight: 700;
 }
 
+
 .row > * {
   position: relative;
 }
@@ -1576,18 +1577,51 @@ h6 {
   color: #868e96;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 300px) {
+  .hero-1-title,
+  .hero-2-title,
+  .hero-4-title,
+  .hero-5-title {
+    font-size: 18px !important;
+  }
+  .hero-1-title {
+    font-size: 15px !important;
+  }
+  .backmargin {
+    margin-top: 100px !important;
+  }
+  .dead {
+    margin-top: 100px !important;
+  }
+  .hero-5-title {
+    font-size: 10px !important;
+  }
+  .hero-6-bg {
+    padding: 150px 0 110px 0px;
+  }
+  .hero-6-bg .hero-6-title {
+    font-size: 88px !important;
+  }
+  .hero-6-bg .Subcribe-form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .hero-1-title,
   .hero-2-title,
   .hero-4-title,
   .hero-5-title {
     font-size: 26px !important;
   }
+  .hero-1-title h1 {
+    font-size: 26px !important;
+  }
   .backmargin {
-    margin-top: 1px !important;
+    margin-top: 100px !important;
   }
   .dead {
-    margin-top: 0px !important;
+    margin-top: 100px !important;
   }
   .hero-15-title {
     font-size: 20px !important;

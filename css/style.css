@@ -137,12 +137,24 @@ a.button:hover {
   height: 150px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   #header-iiita-logo,
   #header-iiita-logo1 {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
+  }
+  .image-data h1 {
+    font-size: 5px;
   }
 }
 
-7 4 6 2 5
+@media screen and (max-width: 400px) {
+  #header-iiita-logo,
+  #header-iiita-logo1 {
+    width: 60px;
+    height: 60px;
+  }
+  #res {
+    font-size: 15px !important;
+  }
+}
