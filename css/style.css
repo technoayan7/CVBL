@@ -158,3 +158,9 @@ a.button:hover {
     font-size: 19px !important;
   }
 }
+
+.non-clickable {
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
